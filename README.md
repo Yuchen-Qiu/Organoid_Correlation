@@ -272,14 +272,15 @@ run_register.py
         |
         v
 Registration transformation
+        |                       
+        v                       
+apply_final_transform.py   
+        |                        
+        v
+evaluate_registration.py
         |
-        +------------------------+
-        |                        |
-        v                        v
-apply_final_transform.py   evaluate_registration.py
-                                 |
-                                 v
-                         evaluation_merging.py
+        v
+evaluation_merging.py
 
 Microscopy
     |
