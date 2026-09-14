@@ -250,10 +250,7 @@ The overall workflow for the fiber phantom project is:
 GRE image
     |
     v
-01 segmentation
-    |
-    v
-02 watershed
+01-02 segmentation
     |
     v
 Fiber mask + centroid point map
