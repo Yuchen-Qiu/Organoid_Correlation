@@ -1,0 +1,9 @@
+cd ~/Vscode/OrganoidSeg
+
+conda env create -f environment.yml
+
+conda activate organoid_final
+
+python -m pip check
+
+python -c "import cellpose, torch, itk, SimpleITK, nibabel, numpy, scipy, pandas; print('All imports OK')"

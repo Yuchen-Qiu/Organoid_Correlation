@@ -1,0 +1,14 @@
+.vscode/
+__pycache__/
+*.pyc
+
+data/
+results/
+outputs/
+
+*.nii
+*.nii.gz
+*.tif
+*.tiff
+*.npy
+*.npz
