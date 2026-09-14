@@ -1,0 +1,27 @@
+name: organoid_final
+
+channels:
+  - conda-forge
+  - nodefaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - git
+
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu124
+      - torch==2.6.0+cu124
+      - torchvision==0.21.0+cu124
+      - git+https://github.com/MouseLand/cellpose.git@94ae12036
+      - numpy==2.2.6
+      - scipy==1.15.3
+      - scikit-image==0.25.2
+      - pandas==2.3.3
+      - matplotlib==3.10.9
+      - nibabel==5.4.2
+      - SimpleITK==2.5.4
+      - itk==5.4.6
+      - itk-elastix==0.25.3
+      - pydicom==3.0.2
+      - tifffile==2025.5.10
